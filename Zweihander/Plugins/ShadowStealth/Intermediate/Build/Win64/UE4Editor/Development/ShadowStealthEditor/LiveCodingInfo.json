@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ShadowStealthEditor.cpp.obj": [
+			"ActorFactoryShadowDirectionalLight.cpp.obj",
+			"ActorFactoryShadowPointLight.cpp.obj",
+			"ActorFactoryShadowRectLight.cpp.obj",
+			"ActorFactoryShadowSpotLight.cpp.obj",
+			"ActorFactoryShadowStealthCharacter.cpp.obj",
+			"ParentSocketCustomization.cpp.obj",
+			"ShadowStealthEditor.cpp.obj",
+			"ShadowStealthLevelEditorExtension.cpp.obj"
+		],
+		"Module.ShadowStealthEditor.gen.cpp.obj": [
+			"ActorFactoryShadowDirectionalLight.gen.cpp.obj",
+			"ActorFactoryShadowPointLight.gen.cpp.obj",
+			"ActorFactoryShadowRectLight.gen.cpp.obj",
+			"ActorFactoryShadowSpotLight.gen.cpp.obj",
+			"ActorFactoryShadowStealthCharacter.gen.cpp.obj",
+			"ShadowStealthEditor.init.gen.cpp.obj"
+		]
+	}
+}

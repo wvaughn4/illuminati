@@ -1,0 +1,54 @@
+{
+	"FileVersion": 3,
+	"Version": 6,
+	"VersionName": "1.5",
+	"FriendlyName": "Shadow Stealth",
+	"Description": "\"Hide in the shadows\" gameplay mechanic, perfect for thieves, assassins and alike.",
+	"Category": "Gameplay",
+	"CreatedBy": "loonyware",
+	"CreatedByURL": "http://loonyware.com",
+	"DocsURL": "http://loonyware.com/assets/shadow-stealth/#Documentation",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/a34fc18f40864fb3af3e713ad5f0c0b3",
+	"SupportURL": "https://forums.unrealengine.com/unreal-engine/marketplace/1653934-shadow-stealth-hide-in-the-shadows-plugin",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ShadowStealth",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "ShadowStealthShaders",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "ShadowStealthEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
+}

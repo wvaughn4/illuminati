@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ShadowStealthEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\zw\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"E:\zw\Zweihander\Plugins\ShadowStealth\Intermediate\Build\Win64\UE4Editor\Development\ShadowStealthEditor\Module.ShadowStealthEditor.cpp.obj"
+"E:\zw\Zweihander\Plugins\ShadowStealth\Intermediate\Build\Win64\UE4Editor\Development\ShadowStealthEditor\Module.ShadowStealthEditor.gen.cpp.obj"
+"E:\zw\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"E:\zw\Zweihander\Plugins\ShadowStealth\Intermediate\Build\Win64\UE4Editor\Development\ShadowStealthEditor\UE4Editor-ShadowStealthEditor.lib"
+/INCLUDE:IMPLEMENT_MODULE_ShadowStealthEditor

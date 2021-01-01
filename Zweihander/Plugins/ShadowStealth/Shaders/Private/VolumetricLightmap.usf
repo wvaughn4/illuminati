@@ -1,0 +1,26 @@
+// Copyright 2019 Marcin Swiderski. All Rights Reserved.
+
+#include "/Engine/Public/Platform.ush"
+#include "/Engine/Private/Common.ush"
+#include "/Engine/Private/SHCommon.ush"
+#include "/Engine/Private/VolumetricLightmapShared.ush"
+
+Buffer<float4> InPoints;
+RWBuffer<float4> OutIntensities;
+
+[numthreads(1, 1, 1)]
+void Main(uint3 GroupId : SV_GroupID)
+{
+	uint Index = GroupId.x;
+	if (Index < ShadowStealthVolumetricLightmap.PointsCount)
+	{
+		float3 VolumetricLightmapBrickTextureUVs = ComputeVolumetricLightmapBrickTextureUVs(InPoints[Index]);
+		FOneBandSHVectorRGB IrradianceSH = GetVolumetricLightmapSH1(VolumetricLightmapBrickTextureUVs);
+		FOneBandSHVector DiffuseTransferSH = CalcDiffuseTransferSH1(1);
+	
+		float3 DiffuseLighting = max(float3(0, 0, 0), DotSH1(IrradianceSH, DiffuseTransferSH)) / PI;
+		float Irradiance = Luminance(DiffuseLighting);
+	
+		OutIntensities[Index] = float4(DiffuseLighting, Irradiance);
+	}
+}

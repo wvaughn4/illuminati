@@ -1,0 +1,8 @@
+E:\zw\Zweihander\Plugins\ShadowStealth\Intermediate\Build\Win64\UE4Editor\Development\ShadowStealthShaders\Definitions.ShadowStealthShaders.h
+E:\zw\Zweihander\Plugins\ShadowStealth\Source\ShadowStealthShaders\Public\ShadowStealthShaders.h
+E:\zw\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+E:\zw\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+E:\zw\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
+E:\zw\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
+E:\zw\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
+E:\zw\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h

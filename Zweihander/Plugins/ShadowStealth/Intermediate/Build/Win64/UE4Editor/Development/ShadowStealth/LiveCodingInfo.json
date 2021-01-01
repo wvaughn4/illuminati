@@ -1,0 +1,46 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ShadowStealth.cpp.obj": [
+			"ShadowDirectionalLight.cpp.obj",
+			"ShadowPointLight.cpp.obj",
+			"ShadowRectLight.cpp.obj",
+			"ShadowSpotLight.cpp.obj",
+			"ShadowStealthCharacter.cpp.obj",
+			"ShadowDirectionalLightComponent.cpp.obj",
+			"ShadowPointLightComponent.cpp.obj",
+			"ShadowRectLightComponent.cpp.obj",
+			"ShadowSpotLightComponent.cpp.obj",
+			"ShadowStealthComponent.cpp.obj",
+			"ShadowSightTargetBase.cpp.obj",
+			"ShadowSightTargetIntensityBounds.cpp.obj",
+			"ShadowSightTargetIntensityBoundsWithDistanceMultiplier.cpp.obj",
+			"PropertyNames.cpp.obj",
+			"ShadowLightLibrary.cpp.obj",
+			"ShadowStealth.cpp.obj",
+			"ShadowStealthCustomVersion.cpp.obj",
+			"ShadowStealthSceneViewExt.cpp.obj",
+			"ShadowStealthSettings.cpp.obj"
+		],
+		"Module.ShadowStealth.gen.cpp.obj": [
+			"IShadowLight.gen.cpp.obj",
+			"ParentSocket.gen.cpp.obj",
+			"ShadowDirectionalLight.gen.cpp.obj",
+			"ShadowDirectionalLightComponent.gen.cpp.obj",
+			"ShadowIntensityNotifier.gen.cpp.obj",
+			"ShadowPointLight.gen.cpp.obj",
+			"ShadowPointLightComponent.gen.cpp.obj",
+			"ShadowRectLight.gen.cpp.obj",
+			"ShadowRectLightComponent.gen.cpp.obj",
+			"ShadowSightTargetBase.gen.cpp.obj",
+			"ShadowSightTargetIntensityBounds.gen.cpp.obj",
+			"ShadowSightTargetIntensityBoundsWithDistanceMultiplier.gen.cpp.obj",
+			"ShadowSpotLight.gen.cpp.obj",
+			"ShadowSpotLightComponent.gen.cpp.obj",
+			"ShadowStealth.init.gen.cpp.obj",
+			"ShadowStealthCharacter.gen.cpp.obj",
+			"ShadowStealthComponent.gen.cpp.obj",
+			"ShadowStealthSettings.gen.cpp.obj"
+		]
+	}
+}

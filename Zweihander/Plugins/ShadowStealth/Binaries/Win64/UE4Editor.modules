@@ -1,0 +1,9 @@
+{
+	"BuildId": "c566bb4b-d10a-42f6-a127-43637130b5e0",
+	"Modules": 
+	{
+		"ShadowStealth": "UE4Editor-ShadowStealth.dll",
+		"ShadowStealthEditor": "UE4Editor-ShadowStealthEditor.dll",
+		"ShadowStealthShaders": "UE4Editor-ShadowStealthShaders.dll"
+	}
+}
