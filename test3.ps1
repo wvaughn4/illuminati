@@ -1,0 +1,3 @@
+cd "C:\agent\_work\2\s\Engine\Build\BatchFiles"
+./GenerateProjectFiles.bat "C:\agent\_work\2\s\Zweihander\CompleteRPG.uproject"
+C:\agent\_work\2\s\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun -project=C:/agent/_work/2/s/Zweihander/CompleteRPG.uproject -noP4 -platform=Win64 -clientconfig=Development -serverconfig=Development -cook -maps=AllMaps -build -compile -stage -pak -archive -archivedirectory="C:\agent\_work\2\s\sdk\tools\ContentBuilder\content\" 
